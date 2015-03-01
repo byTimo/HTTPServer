@@ -1,0 +1,33 @@
+body{
+background: white;
+}
+ul {
+    background: #228B22
+}
+li{
+    border: 1px solid #228B22;
+    display:inline-block;
+    background: #228B22;
+}
+li a {
+    font-size: 20px;
+    color: #ebe306;
+    text-decoration:none;
+    font-weight: bold;
+    padding: 2px 15px 2px 15px;
+}
+li:hover {
+    background:white;
+    color:white;
+}
+li a:hover{
+    color: black;
+}
+pp {
+    font-family: arial, verdana, sans-serif;
+    font-size: 17px;
+}
+h1 {
+    color:#228B22;
+    font-size: 30px;
+}

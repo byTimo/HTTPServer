@@ -1,0 +1,25 @@
+<script type="text/javascript" src="table.js"></script>
+<h1 ALIGN=CENTER>Таблица сноубордов</h1>
+        <pp>
+            <table id = "table" width="800" border="1">
+                <tr>
+                    <th>Номер</th>
+                    <th>Название сноуборда</th>
+                    <th>Название бренда</th>
+                    <th>Стиль катания</th>
+                    <th>Кнопки управления</th>
+                </tr>
+                <#list TableEntitys as tableEntity>
+                    <tr>
+                        <td>${tableEntity.getId()}</td>
+                        <td>${tableEntity.getName()}</td>
+                        <td>${tableEntity.getBrand()}</td>
+                        <td>${tableEntity.getStyle()}</td>
+                        <td><input type="button" value="Удалить" onclick="deleteline(this)"/>
+                            <input type="button" value="Изменить" onclick="checkline(this)"/></td>
+                    </tr>
+                </#list>
+                <br>
+            </table>
+            <input type="button" value="Создать запись" onclick="createline()"/>
+        </pp>

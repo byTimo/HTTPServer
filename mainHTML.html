@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>${title}</title>
+</head>
+<body>
+<ul>
+    <#list Links as link>
+        <li><a href=${link.getURI()}>${link.getName()}</a></li>
+    </#list>
+</ul>
+${content}
+</body>
+</html>

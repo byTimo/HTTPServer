@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="envers">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/drivers/lib/envers" />
+      <root url="file://$PROJECT_DIR$/drivers/lib/jpa" />
+      <root url="file://$PROJECT_DIR$/drivers/lib/jpa-metamodel-generator" />
+      <root url="file://$PROJECT_DIR$/drivers/lib/osgi" />
+      <root url="file://$PROJECT_DIR$/drivers/lib/required" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/drivers/lib/osgi" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/drivers/lib/envers" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/drivers/lib/jpa" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/drivers/lib/jpa-metamodel-generator" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/drivers/lib/osgi" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/drivers/lib/required" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/drivers/lib/osgi" recursive="false" type="SOURCES" />
+  </library>
+</component>
